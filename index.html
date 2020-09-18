@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Точки событий на карте</title>
+    <link rel="stylesheet" href="css/jquery-ui-1.12.1.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.12.1.min.js"></script>
+    <script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body class="Bod">
+    <form id="form1">
+        <table class="Tab">
+            <tr>
+                <td class="TabMenu">
+                    <fieldset>
+                        <legend><a class="ui-button ui-widget ui-corner-all" title="Настройка" onclick="Menu_open()"><span class="ui-icon ui-icon-gear"></span></a> Отчёты:</legend>
+                        <div class="Elements"></div>
+                    </fieldset>
+                </td>
+                <td>
+                    <div id="map"></div>
+                </td>
+            </tr>
+        </table>
+        <div id="Menu" style="display:none"></div>
+    </form>
+</body>
+</html>

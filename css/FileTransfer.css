@@ -1,0 +1,13 @@
+﻿@charset 'UTF-8';
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 13px;
+}
+
+a {
+  color: #222;
+}
+
+.Prim {
+    font-size: 9px;
+}
