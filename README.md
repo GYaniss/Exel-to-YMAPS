@@ -1,6 +1,6 @@
 # Exel-to-YMAPS
 
-# JavaScript ASP.NET C#
+JavaScript ASP.NET C#
 
 1) Отображение на карте Яндекс файлов Exel c декодированием столбца адреса через один из трех сервисов geodecoding
 
